@@ -9,11 +9,30 @@ body {
   margin: 0;
   font-family: lato, sans-serif;
   background: linear-gradient(180deg, #FFF 0%, #F3F8F7 49.91%, #FFF9F5 94.19%);
+  overflow-x: hidden;
 }
 
 .wrapper {
-  width: 1440px;
+  width: 1200px;
   height: 100vh;
   margin:auto;
   background:dodgerblue;
+}
+
+.title {
+font-family: "Futura PT-Demi", Helvetica;
+font-weight: 400;
+color: #54575a;
+font-size: 64px;
+letter-spacing: 0;
+line-height: 67.5px;
+}
+
+.text {
+  font-family: "Futura PT-Book", Helvetica;
+  font-weight: 400;
+  color: #54575a;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 32px;
 }
